@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link href="//db.onlinewebfonts.com/c/800e985f75a5a56c2f7b4be502d286de?family=Burbank+Big+Condensed" rel="stylesheet" type="text/css"/>
+  <title>Battlepass 100!</title>
+  <script type="text/javascript" src="js/index.js"></script>
+  <link rel="shortcut icon" type="image/png" href="images/icon.ico"/>
+</head>
+<body>
+  <div class="home">
+    <div class="home-1">
+      <p class="home-title">Battlepass 100!</p>
+    </div>
+    <p class="home-title orange">What is your estimated end-season level?</p>
+    <img src='./images/icon.png' alt="battlepass" class="logo"/>
+    <p class="home-title">Season 8 Battlepass</p>
+    <p class="home-question">Which BattlePass you took?</p>
+    <div class='home-question-button-div'>
+      <button id="papelStandart" class='home-question-button active' onclick="setTrueStandard()"><p class='home-question-button-text'>950 V-Buck (Standard)</p></button>
+    </div>
+    <div class='home-question-button-div'>
+      <button id="papelBundle" class='home-question-button' onclick="setTrueBundle()"><p class='home-question-button-text'>2800 V-Buck (Bundle)</p></button>
+    </div>
+
+    <div class='home-question-div'>
+      <p class="home-question">What is your Battlepass Level?</p>
+      <div class='home-question-input-div'>
+        <input id="pass-level" class="home-question-input" placeholder="Write..." onkeypress="return isNumeric(event)" oninput="maxLengthCheck(this)" maxlength="2" min="1" max="99" />
+      </div>
+    </div>
+    <div class='home-question-div'>
+      <p class="home-question">Time to finish the Battlepass?</p>
+      <div class='home-question-input-div'>
+        <input id="day-count" class="home-question-input" required placeholder="Write..." onkeypress="return isNumeric(event)" oninput="maxLengthCheck(this)" maxlength="2" min="1" max="99" />
+      </div>
+    </div>
+    <div class='home-question-div'>
+      <p class="home-question">Completed Weeks</p>
+      <div class='home-question-button-div'>
+        <button id="week1" class='home-question-button-week' onclick="setTrueWeek1()"><p class='home-question-button-text'>Week 1</p></button>
+      </div>
+      <div class='home-question-button-div'>
+        <button id="week2" class='home-question-button-week' onclick="setTrueWeek2()"><p class='home-question-button-text'>Week 2</p></button>
+      </div>
+      <div class='home-question-button-div'>
+        <button id="week3" class='home-question-button-week' onclick="setTrueWeek3()"><p class='home-question-button-text'>Week 3</p></button>
+      </div>
+      <div class='home-question-button-div'>
+        <button id="week4" class='home-question-button-week' onclick="setTrueWeek4()"><p class='home-question-button-text'>Week 4</p></button>
+      </div>
+      <div class='home-question-button-div'>
+        <button id="week5" class='home-question-button-week' onclick="setTrueWeek5()"><p class='home-question-button-text'>Week 5</p></button>
+      </div>
+      <div class='home-question-button-div'>
+        <button id="week6" class='home-question-button-week' onclick="setTrueWeek6()"><p class='home-question-button-text'>Week 6</p></button>
+      </div>
+      <div class='home-question-button-div'>
+        <button id="week7" class='home-question-button-week' onclick="setTrueWeek7()"><p class='home-question-button-text'>Week 7</p></button>
+      </div>
+      <div class='home-question-button-div'>
+        <button id="week8" class='home-question-button-week' onclick="setTrueWeek8()"><p class='home-question-button-text'>Week 8</p></button>
+      </div>
+      <div class='home-question-button-div'>
+        <button id="week9" class='home-question-button-week' onclick="setTrueWeek9()"><p class='home-question-button-text'>Week 9</p></button>
+      </div>
+      <div class='home-question-button-div'>
+        <button id="week10" class='home-question-button-week' onclick="setTrueWeek10()"><p class='home-question-button-text'>Week 10</p></button>
+      </div>
+      <div class='home-question-button-div'>
+        <button class='home-question-button-sumbit' onclick="calculate()"><p class='home-question-button-text'>Calculate</p></button>
+      </div>
+    </div>
+  </div>
+</body>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: "ca-pub-2779101416790896",
+  enable_page_level_ads: true
+});
+</script>
+</html>
